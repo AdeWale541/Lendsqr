@@ -1,0 +1,132 @@
+{
+	"id": "0d7d6c3b-ac06-433d-89b7-572407a0c660",
+	"name": "Lendsqr",
+	"timestamp": "2022-03-25T21:54:59.317Z",
+	"collection_id": "13421524-afc8eddf-a580-4464-b027-ba977f146505",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 9,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "76668b1f-f6f5-49e2-a718-acd959c78f82",
+			"name": "New Request",
+			"time": 486,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				238,
+				483,
+				486
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "bbc0435b-7b13-4904-b22c-9d1a74a4303e",
+			"name": "New Request",
+			"time": 261,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				449,
+				156,
+				261
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "37a2ac58-9c9f-405d-a860-b711ffd62673",
+			"name": "New Request",
+			"time": 170,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				479,
+				182,
+				170
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 2904,
+	"collection": {
+		"requests": [
+			{
+				"id": "76668b1f-f6f5-49e2-a718-acd959c78f82",
+				"method": "POST"
+			},
+			{
+				"id": "bbc0435b-7b13-4904-b22c-9d1a74a4303e",
+				"method": "GET"
+			},
+			{
+				"id": "37a2ac58-9c9f-405d-a860-b711ffd62673",
+				"method": "DELETE"
+			}
+		]
+	}
+}
